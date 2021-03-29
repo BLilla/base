@@ -55,5 +55,4 @@ public class TrainControllerImpl implements TrainController {
 		};
 		this.timer.scheduleAtFixedRate(timerTask,1000,1000);
 	}
-
 }
