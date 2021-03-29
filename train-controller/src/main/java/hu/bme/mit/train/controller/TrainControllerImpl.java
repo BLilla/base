@@ -53,6 +53,6 @@ public class TrainControllerImpl implements TrainController {
 				followSpeed();
 			}
 		};
-		this.timer.scheduleAtFixedRate(timerTask,1000,1000);
+		timer.scheduleAtFixedRate(timerTask,1000,1000);
 	}
 }
