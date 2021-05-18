@@ -16,7 +16,7 @@ public class TrainTachograph {
 	}
 	
 	public void add(int userJoyStickPos, int controllerRefSpeed) {
-		LocalTime time = LocalTime.now();
+		var time = LocalTime.now();
 		logTable.put(time, userJoyStickPos, controllerRefSpeed);
 	}
 	
